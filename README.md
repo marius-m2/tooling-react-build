@@ -3,7 +3,7 @@
 # Install
 
 npm:
-`npm install tooling-react-build --save`
+`npm install tooling-react-build`
 
 yarn:
 `yarn add tooling-react-build`
