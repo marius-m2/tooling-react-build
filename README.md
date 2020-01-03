@@ -1,5 +1,7 @@
 # tooling-react-build
+[![npm version](https://badge.fury.io/js/tooling-react-build.svg)](https://badge.fury.io/js/tooling-react-build)
 
+A React component that will sanitize user HTML code, using the popular [`sanitize-html`](https://npmjs.com/package/sanitize-html) package.
 # Install
 
 npm:
@@ -10,10 +12,8 @@ yarn:
 
 # Example usage
 
-TODO add complex example
-
 ```bash
-tooling-build
+tooling-react-build ./my-dir/src --out-dir ./lib --source-maps
 ```
 
 It will output as:
