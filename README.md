@@ -25,8 +25,8 @@ It will output as:
 ```
 
 # Options
-
-TODO add argv console options.
+TODO add better documentation
+TODO add eslint integration
 
 Also supports all babel sent options
 
