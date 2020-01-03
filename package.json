@@ -1,0 +1,39 @@
+{
+  "name": "tooling-react-build",
+  "version": "1.0.0",
+  "description": "Simple build process for react based applications using babel and eslint. Sane config defaults.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --source-maps",
+    "prepare": "rimraf lib && npm run build",
+    "test": "jest",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [
+    "tooling",
+    "build",
+    "react",
+    "babel",
+    "eslint",
+    "config",
+    "build",
+    "tooling"
+  ],
+  "author": "Marius Ionescu",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.2.0",
+    "eslint-plugin-react": "^7.17.0",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0"
+  }
+}
