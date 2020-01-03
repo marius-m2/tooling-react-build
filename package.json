@@ -4,7 +4,7 @@
   "description": "Simple build process for react based applications using babel and eslint. Sane config defaults.",
   "main": "index.js",
   "bin": {
-    "build": "cli.js"
+    "tooling-react-build": "cli.js"
   },
   "scripts": {
     "test": "jest"
